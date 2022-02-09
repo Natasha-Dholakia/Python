@@ -46,6 +46,6 @@ while guess != random_number:  # This loop will repeat until the user guesses th
 
 suffix = "" # Initializing the suffix variable
 if attempts > 1: # This will check if the user has made more than one attempt
-    suffis = "5" # If the user has made more than one attempt, the suffix will be "5"
+    suffix = "5" # If the user has made more than one attempt, the suffix will be "5"
 
 print(f"you guessed the number in {attempts} attempt {suffix}") # This will print the number of attempts the user has made
