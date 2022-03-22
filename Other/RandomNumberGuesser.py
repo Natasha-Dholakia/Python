@@ -1,10 +1,10 @@
-# Write a program that asks the user to  enter two integers representing the start and end of a range.
-# Then ask the user to enter an integer value.
-# The program should tell the user if the value is in the range or not.  
-# Your program should handle any other errors that may occur, like the user entering non-numeric values.
-# You can assume the start will not be negative 
-# and the end will not be less than the start.
-
+"""
+Write a program that asks the user to  enter two integers representing the start and end of a range.
+Then ask the user to enter an integer value.
+The program should tell the user if the value is in the range or not.  
+Your program should handle any other errors that may occur, like the user entering non-numeric values.
+You can assume the start will not be negative 
+and the end will not be less than the start.
 
 # Smaple Output:
 # Enter the start of the range: 1
@@ -12,7 +12,7 @@
 # Guess a number: 5
 # Guess a number: 6
 # You guessed the number in 2 attempts!
-
+"""
 import random # inputting this module because we have to a genetrate a random number 
 
 start = input("Enter the start of the range: ") # Asking the  user to input a valid range 
